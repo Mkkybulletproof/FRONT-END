@@ -1,0 +1,32 @@
+        /* ul li:first-child {
+            color: red;
+        } */
+
+        /* ul li:last-child {
+            color: red;
+        } */
+
+        /* ul li:nth-child(odd) {
+            color: red;
+        } */
+
+            /* ul li:nth-last-child(n+3) {
+                color: red;
+            } */
+
+
+    <!-- <style>
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: red;
+            height: 500px;
+        }
+
+        .wrapper .item {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            background-color: yellow;
+        }
+    </style> -->
