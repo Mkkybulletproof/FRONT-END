@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            margin: 0 15px;
+            
+            transition-duration: 1s;
+        }
+        
+        .box:nth-child(1) {
+            background-color: orange;
+        }
+
+        .box:nth-child(2) {
+            background-color: red;
+        }
+
+        .box:nth-child(3) {
+            background-color: green;
+        }
+
+        .scale-box:hover:nth-child(1) {
+            transform: scale(0.95)
+        }
+
+        .scale-box:hover:nth-child(2) {
+            transform: scale(0.75)
+        }
+
+        .scale-box:hover:nth-child(3) {
+            transform: scale(0.50)
+        }
+
+        .rotate-box:hover:nth-child(1) {
+            transform: rotate(-30deg);
+        }
+
+        .rotate-box:hover:nth-child(2) {
+            transform: rotate(180deg);
+        }
+
+        .rotate-box:hover:nth-child(3) {
+            transform: rotate(360deg);
+        }
+
+        .translate-box:hover:nth-child(1) {
+            transform: translatex(30px)
+        }
+
+        .translate-box:hover:nth-child(2) {
+            transform: translatex(75px)
+        }
+
+        .translate-box:hover:nth-child(3) {
+            transform: translatex(100px)
+        }
+
+        .skew-box:hover:nth-child(1) {
+            transform: skewX(30deg)
+        }
+
+        .skew-box:hover:nth-child(2) {
+            transform: skewX(80deg)
+        }
+
+        .skew-box:hover:nth-child(3) {
+            transform: skewX(120deg)
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box scale-box">Box 1</div>
+        <div class="box scale-box">Box 2</div>
+        <div class="box scale-box">Box 3</div>
+    </div>
+
+    <div class="container">
+        <div class="box rotate-box">Box 1</div>
+        <div class="box rotate-box">Box 2</div>
+        <div class="box rotate-box">Box 3</div>
+    </div>
+
+    <div class="container">
+        <div class="box translate-box">Box 1</div>
+        <div class="box translate-box">Box 2</div>
+        <div class="box translate-box">Box 3</div>
+    </div>
+
+    <div class="container">
+        <div class="box skew-box">Box 1</div>
+        <div class="box skew-box">Box 2</div>
+        <div class="box skew-box">Box 3</div>
+    </div>
+
+</body>
+</html>
