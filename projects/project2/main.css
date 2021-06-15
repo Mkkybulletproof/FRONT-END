@@ -1,0 +1,18 @@
+body {
+    width: 360px;
+    margin: 0 auto;
+}
+header {
+    height: 17px;
+    
+    
+}
+header nav {
+    
+}
+header nav ul  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}

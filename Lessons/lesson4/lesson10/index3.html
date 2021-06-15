@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .column {
+            padding: 5px;
+            
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            margin: auto;
+            background-color: #e28679;
+
+            transition-property: background-colour, transform;
+            transition-duration: 800ms;
+            transition-timing-function: ease;
+            transition-delay: 1
+        }
+        .box:hover:nth-child(1) {
+            background-color: #fdbc5e;
+            transform: scale(0.75);
+        }
+        .box:hover:nth-child(2) {
+            background-color: #9b9ea5;
+            transform: scale(0.75);
+        }
+        .box:hover:nth-child(3) {
+            background-color: #e2a2b2;
+            transform: scale(0.75);
+        }
+    </style>
+</head>
+<body>
+    <div class="column">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="column">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="column">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
