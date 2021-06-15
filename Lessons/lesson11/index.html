@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lesson 11</title>
+    <style>
+/*         
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+
+            /* transition-property: background-colour, transform;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            transition-delay: 500ms; */
+
+            /* transition: background-color 1s,
+                        transform 1s; */
+        /* .box:hover {
+            background-color: teal;
+            transform: rotate(360deg);
+        } */
+        .box {
+            width: 200px;
+            height: 200px;
+            animation-name: bgChangeAnimation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes bgChangeAnimation {
+            0% {
+                background-color: black;
+            }
+            20% {
+                background-color: orange;
+            }
+            60% {
+                background-color: green;
+            }
+            80% {
+                background-color: teal;
+            }
+            100% {
+                background-color: black;
+            }
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            animation-name: spin;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <img src="https://image.flaticon.com/icons/svg/2917/2917242.svg" alt=""> 
+</body>
+</html>
